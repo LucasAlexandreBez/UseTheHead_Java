@@ -27,7 +27,7 @@ public class GuessGame {
 			System.out.println("Player 1 guessed " + guessP1);
 			
 			guessP2 = p2.number;
-			System.out.println("Player 1 guessed " + guessP2);
+			System.out.println("Player 2 guessed " + guessP2);
 			
 			if (guessP1 == targetNumber) {
 				p1IsRight = true;

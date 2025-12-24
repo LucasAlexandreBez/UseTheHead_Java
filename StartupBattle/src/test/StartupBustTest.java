@@ -43,7 +43,7 @@ public class StartupBustTest {
         String result = "miss";
 
         for (Startup startup : startups) {
-           if (startup.getName() == userGuess) {
+           if (startup.getGame() == userGuess) {
                 int index = startups.indexOf(startup);
                 startups.remove(index);
                 
